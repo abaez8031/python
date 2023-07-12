@@ -1,1 +1,8 @@
-print("Hello World")
+age = 20
+price = 19.95
+first_name = "Mosh"
+is_online = True
+print(age)
+
+name = input("What is your name? ")
+print("Hello " + name)
