@@ -38,23 +38,42 @@
 # print (price > 10)
 # print(not price > 10)
 
-temperature = 15
-if temperature > 30:
-    print("It's a hot day")
-    print("Drink plenty of water")
-elif temperature > 20:
-    print("It's a nice day")
-elif temperature > 10:
-    print("It's a bit cold")
-else:
-    print("It's cold")
-print("Done")
+# temperature = 15
+# if temperature > 30:
+#     print("It's a hot day")
+#     print("Drink plenty of water")
+# elif temperature > 20:
+#     print("It's a nice day")
+# elif temperature > 10:
+#     print("It's a bit cold")
+# else:
+#     print("It's cold")
+# print("Done")
 
-weight = float(input("Weight: "))
-unit = input("K(g) or L(bs): ")
-if unit.lower() == "k":
-    print("Weight in lbs:" + str(weight * 2.2))
-elif unit.lower() == "l":
-    print("Weight in kg: " + str(weight / 2.2))
-else:
-    print("Wrong unit entered")
+# weight = float(input("Weight: "))
+# unit = input("K(g) or L(bs): ")
+# if unit.lower() == "k":
+#     print("Weight in lbs:" + str(weight * 2.2))
+# elif unit.lower() == "l":
+#     print("Weight in kg: " + str(weight / 2.2))
+# else:
+#     print("Wrong unit entered")
+
+# i = 1
+# while i <= 10:
+#     print(i * "*")
+#     i += 1
+
+names = ["John", "Bob", "Mosh", "Sam", "Mary"]
+names[0] = "Jon"
+print(names[0:3])
+
+nums = [1,2,3,4,5]
+nums.append(6)
+print(1 in nums)
+print(nums)
+print(len(nums))
+nums.insert(0, -1)
+nums.remove(3)
+nums.clear()
+print(nums)
