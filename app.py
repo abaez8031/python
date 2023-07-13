@@ -22,3 +22,7 @@
 
 course = "Python for Beginners"
 print(course.upper())
+print(course.find("y"))
+print(course.find("Y"))
+print(course.replace("for", "4"))
+print(course)
