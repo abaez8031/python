@@ -90,3 +90,10 @@
 # numbers = range(5, 10, 2)
 # for num in numbers:
 #     print(num)
+
+# PART 2
+
+first = "Ariel"
+last = "Baez"
+msg = f'{first} [{last}] is a coder'
+print(msg)
