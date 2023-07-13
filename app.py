@@ -64,16 +64,25 @@
 #     print(i * "*")
 #     i += 1
 
-names = ["John", "Bob", "Mosh", "Sam", "Mary"]
-names[0] = "Jon"
-print(names[0:3])
+# names = ["John", "Bob", "Mosh", "Sam", "Mary"]
+# names[0] = "Jon"
+# print(names[0:3])
 
-nums = [1,2,3,4,5]
-nums.append(6)
-print(1 in nums)
-print(nums)
-print(len(nums))
-nums.insert(0, -1)
-nums.remove(3)
-nums.clear()
-print(nums)
+# nums = [1,2,3,4,5]
+# nums.append(6)
+# print(1 in nums)
+# print(nums)
+# print(len(nums))
+# nums.insert(0, -1)
+# nums.remove(3)
+# nums.clear()
+# print(nums)
+
+numbers = [1,2,3,4,5]
+for item in numbers:
+    print(item)
+
+i = 0
+while i < len(numbers):
+    print(numbers[i])
+    i += 1
