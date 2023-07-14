@@ -97,3 +97,10 @@ first = "Ariel"
 last = "Baez"
 msg = f'{first} [{last}] is a coder'
 print(msg)
+
+numbers = [5,2,5,2,2]
+for i in range(len(numbers)):
+    string = ""
+    for j in range(numbers[i]):
+        string += "x"
+    print(string)
