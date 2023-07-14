@@ -117,14 +117,23 @@
 #     output += f"{nums_map[code]} "
 # print(output)
 
-emoji_map = {
-    ":)": "😀",
-    ":(": "😞"
-}
+# emoji_map = {
+#     ":)": "😀",
+#     ":(": "😞"
+# }
+#
+# message = input(">")
+# words = message.split(" ")
+# message = ""
+# for word in words:
+#     message += emoji_map.get(word,word) + " "
+# print(message)
 
-message = input(">")
-words = message.split(" ")
-message = ""
-for word in words:
-    message += emoji_map.get(word,word) + " "
-print(message)
+def greet_user(first_name, last_name):
+    print(f"Hi there {first_name} {last_name}")
+    print("Welcome aboard")
+
+
+print("Start")
+greet_user("John", "Smith")
+print("Finish")
