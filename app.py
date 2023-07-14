@@ -93,14 +93,38 @@
 
 # PART 2
 
-first = "Ariel"
-last = "Baez"
-msg = f'{first} [{last}] is a coder'
-print(msg)
+# first = "Ariel"
+# last = "Baez"
+# msg = f'{first} [{last}] is a coder'
+# print(msg)
+#
+# numbers = [5,2,5,2,2]
+# for i in range(len(numbers)):
+#     string = ""
+#     for j in range(numbers[i]):
+#         string += "x"
+#     print(string)
 
-numbers = [5,2,5,2,2]
-for i in range(len(numbers)):
-    string = ""
-    for j in range(numbers[i]):
-        string += "x"
-    print(string)
+# nums_map = {
+#     "1": "One",
+#     "2": "Two",
+#     "3": "Three",
+#     "4": "Four"
+# }
+
+# output = ""
+# for code in input("Phone Number? "):
+#     output += f"{nums_map[code]} "
+# print(output)
+
+emoji_map = {
+    ":)": "😀",
+    ":(": "😞"
+}
+
+message = input(">")
+words = message.split(" ")
+message = ""
+for word in words:
+    message += emoji_map.get(word,word) + " "
+print(message)
