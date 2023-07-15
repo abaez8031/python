@@ -129,11 +129,21 @@
 #     message += emoji_map.get(word,word) + " "
 # print(message)
 
-def greet_user(first_name, last_name):
-    print(f"Hi there {first_name} {last_name}")
-    print("Welcome aboard")
+# def greet_user(first_name, last_name):
+#     print(f"Hi there {first_name} {last_name}")
+#     print("Welcome aboard")
+#
+#
+# print("Start")
+# greet_user("John", "Smith")
+# print("Finish")
+
+class Point:
+    def move(self):
+        print("Move")
+    def draw(self):
+        print("Draw")
 
 
-print("Start")
-greet_user("John", "Smith")
-print("Finish")
+point = Point()
+# print(point.x)
