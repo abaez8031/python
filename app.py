@@ -146,4 +146,4 @@ class Point:
 
 
 point = Point()
-print(point.x)
+# print(point.x)
