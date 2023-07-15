@@ -1,3 +1,5 @@
+import converters
+from converters import kg_to_lbs
 # age = 20
 # price = 19.95
 # first_name = "Mosh"
@@ -138,50 +140,60 @@
 # greet_user("John", "Smith")
 # print("Finish")
 
-class Point:
-    def __init__(self, x, y):
-        self.x = x
-        self.y = y
-    def move(self):
-        print("Move")
-    def draw(self):
-        print("Draw")
+# class Point:
+#     def __init__(self, x, y):
+#         self.x = x
+#         self.y = y
+#     def move(self):
+#         print("Move")
+#     def draw(self):
+#         print("Draw")
+#
+#
+# point = Point(10,20)
+# print(point.x)
+#
+# class Person:
+#     def __init__(self, name):
+#         self.name = name
+#
+#     def talk(self):
+#         print(f"Hello my name is {self.name}")
+#
+#
+# john = Person("John Smith")
+# john.talk()
+#
+# bob = Person("Bob Smith")
+# bob.talk()
+#
+#
+# class Mammal:
+#     def walk(self):
+#         print("Walk")
+#
+#
+# class Dog(Mammal):
+#     def bark(self):
+#         print("bark")
+#
+#
+# class Cat(Mammal):
+#     def meow(self):
+#         print("Meow")
+#
+#
+# dog1 = Dog()
+# dog1.walk()
+# cat1 = Cat()
+# cat1.meow()
 
+print(converters.lbs_to_kg(170))
+print(converters.kg_to_lbs(70))
 
-point = Point(10,20)
-print(point.x)
-
-class Person:
-    def __init__(self, name):
-        self.name = name
-
-    def talk(self):
-        print(f"Hello my name is {self.name}")
-
-
-john = Person("John Smith")
-john.talk()
-
-bob = Person("Bob Smith")
-bob.talk()
-
-
-class Mammal:
-    def walk(self):
-        print("Walk")
-
-
-class Dog(Mammal):
-    def bark(self):
-        print("bark")
-
-
-class Cat(Mammal):
-    def meow(self):
-        print("Meow")
-
-
-dog1 = Dog()
-dog1.walk()
-cat1 = Cat()
-cat1.meow()
+def find_max(numbers):
+    maximum = numbers[0]
+    for num in numbers:
+        if num > maximum:
+            maximum = num
+    return(maximum)
