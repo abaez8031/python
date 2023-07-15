@@ -164,3 +164,24 @@ john.talk()
 
 bob = Person("Bob Smith")
 bob.talk()
+
+
+class Mammal:
+    def walk(self):
+        print("Walk")
+
+
+class Dog(Mammal):
+    def bark(self):
+        print("bark")
+
+
+class Cat(Mammal):
+    def meow(self):
+        print("Meow")
+
+
+dog1 = Dog()
+dog1.walk()
+cat1 = Cat()
+cat1.meow()
